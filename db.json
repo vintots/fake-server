@@ -1,14 +1,714 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "connect": [
+    {
+      "username": "vin",
+      "password": "123",
+      "grant_type": "password",
+      "scope": "openid email profile offline_access roles"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "users": [
+    {
+      "username": "vin",
+      "password": "test",
+      "grant_type": "password",
+      "scope": "openid email profile offline_access roles"
+    },
+    {
+      "username": "vin123",
+      "password": "test",
+      "grant_type": "password",
+      "scope": "openid email profile offline_access roles"
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "doctors": [
+    {
+      "image": "assets/img/avatar.png",
+      "location": "St. Lukes Medical Cente",
+      "doctor": "Ludo Anderson",
+      "doctorPosition": "Cardiologist"
+    },
+    {
+      "image": "assets/img/avatar2.png",
+      "location": "St. Lukes Medical Center",
+      "doctor": "Sara Orwell",
+      "doctorPosition": "Cardiologist"
+    },
+    {
+      "image": "assets/img/avatar3.png",
+      "location": "St. Lukes Medical Center",
+      "doctor": "Miranda Smith",
+      "doctorPosition": "Cardiologist"
+    }
+  ],
+  "available-dates": [
+    {
+      "startDate": "2018-01-29",
+      "dates": [
+        {
+          "date": "2018-01-29"
+        },
+        {
+          "date": "2018-01-30"
+        },
+        {
+          "date": "2018-01-31"
+        },
+        {
+          "date": "2018-02-01"
+        },
+        {
+          "date": "2018-02-02"
+        },
+        {
+          "date": "2018-02-03"
+        },
+        {
+          "date": "2018-02-04"
+        }
+      ]
+    },
+    {
+      "startDate": "2018-02-05",
+      "dates": [
+        {
+          "date": "2018-02-05"
+        },
+        {
+          "date": "2018-02-06"
+        },
+        {
+          "date": "2018-02-07"
+        },
+        {
+          "date": "2018-02-08"
+        },
+        {
+          "date": "2018-02-09"
+        },
+        {
+          "date": "2018-02-10"
+        },
+        {
+          "date": "2018-02-11"
+        }
+      ]
+    },
+    {
+      "startDate": "2018-02-12",
+      "dates": [
+        {
+          "date": "2018-02-12"
+        },
+        {
+          "date": "2018-02-13"
+        },
+        {
+          "date": "2018-02-14"
+        },
+        {
+          "date": "2018-02-15"
+        },
+        {
+          "date": "2018-02-16"
+        },
+        {
+          "date": "2018-02-17"
+        },
+        {
+          "date": "2018-02-18"
+        }
+      ]
+    },
+    {
+      "startDate": "2018-02-19",
+      "dates": [
+        {
+          "date": "2018-02-19"
+        },
+        {
+          "date": "2018-02-20"
+        },
+        {
+          "date": "2018-02-21"
+        },
+        {
+          "date": "2018-02-22"
+        },
+        {
+          "date": "2018-02-23"
+        },
+        {
+          "date": "2018-02-24"
+        },
+        {
+          "date": "2018-02-25"
+        }
+      ]
+    },
+    {
+      "startDate": "2018-02-26",
+      "dates": [
+        {
+          "date": "2018-02-26"
+        },
+        {
+          "date": "2018-02-27"
+        },
+        {
+          "date": "2018-02-28"
+        },
+        {
+          "date": "2018-03-01"
+        },
+        {
+          "date": "2018-03-02"
+        },
+        {
+          "date": "2018-03-03"
+        },
+        {
+          "date": "2018-03-04"
+        }
+      ]
+    },
+    {
+      "startDate": "2018-03-05",
+      "dates": [
+        {
+          "date": "2018-03-05"
+        },
+        {
+          "date": "2018-03-06"
+        },
+        {
+          "date": "2018-03-07"
+        },
+        {
+          "date": "2018-03-08"
+        },
+        {
+          "date": "2018-03-09"
+        },
+        {
+          "date": "2018-03-10"
+        },
+        {
+          "date": "2018-03-11"
+        }
+      ]
+    }
+  ],
+  "appointment-dates": [
+    {
+      "startDate": "2018-01-29",
+      "dates": [
+        {
+          "date": "2018-01-29"
+        },
+        {
+          "date": "2018-01-30"
+        },
+        {
+          "date": "2018-01-31"
+        },
+        {
+          "date": "2018-02-01"
+        },
+        {
+          "date": "2018-02-02"
+        },
+        {
+          "date": "2018-02-03"
+        },
+        {
+          "date": "2018-02-04"
+        }
+      ]
+    },
+    {
+      "startDate": "2018-02-05",
+      "dates": [
+        {
+          "date": "2018-02-05"
+        },
+        {
+          "date": "2018-02-06"
+        },
+        {
+          "date": "2018-02-07"
+        },
+        {
+          "date": "2018-02-08"
+        },
+        {
+          "date": "2018-02-09"
+        },
+        {
+          "date": "2018-02-10"
+        },
+        {
+          "date": "2018-02-11"
+        }
+      ]
+    },
+    {
+      "startDate": "2018-02-12",
+      "dates": [
+        {
+          "date": "2018-02-12"
+        },
+        {
+          "date": "2018-02-13"
+        },
+        {
+          "date": "2018-02-14"
+        },
+        {
+          "date": "2018-02-15"
+        },
+        {
+          "date": "2018-02-16"
+        },
+        {
+          "date": "2018-02-17"
+        },
+        {
+          "date": "2018-02-18"
+        }
+      ]
+    },
+    {
+      "startDate": "2018-02-19",
+      "dates": [
+        {
+          "date": "2018-02-19"
+        },
+        {
+          "date": "2018-02-20"
+        },
+        {
+          "date": "2018-02-21"
+        },
+        {
+          "date": "2018-02-22"
+        },
+        {
+          "date": "2018-02-23"
+        },
+        {
+          "date": "2018-02-24"
+        },
+        {
+          "date": "2018-02-25"
+        }
+      ]
+    },
+    {
+      "startDate": "2018-02-26",
+      "dates": [
+        {
+          "date": "2018-02-26"
+        },
+        {
+          "date": "2018-02-27"
+        },
+        {
+          "date": "2018-02-28"
+        },
+        {
+          "date": "2018-03-01"
+        },
+        {
+          "date": "2018-03-02"
+        },
+        {
+          "date": "2018-03-03"
+        },
+        {
+          "date": "2018-03-04"
+        }
+      ]
+    },
+    {
+      "startDate": "2018-03-05",
+      "dates": [
+        {
+          "date": "2018-03-05"
+        },
+        {
+          "date": "2018-03-06"
+        },
+        {
+          "date": "2018-03-07"
+        },
+        {
+          "date": "2018-03-08"
+        },
+        {
+          "date": "2018-03-09"
+        },
+        {
+          "date": "2018-03-10"
+        },
+        {
+          "date": "2018-03-11"
+        }
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "type": "REF",
+      "message": "This is a refferal Notification"
+    },
+    {
+      "id": 2,
+      "type": "BDY",
+      "message": "This is a Bday Notification"
+    },
+    {
+      "id": 3,
+      "type": "MDR",
+      "message": "This is a Medical Report Notification"
+    }
+  ],
+  "maintenances": [
+    {
+      "id": 1,
+      "type": "HTM",
+      "message": "Health Maintenance"
+    }
+  ],
+  "associated-doctor": [
+    {
+      "id": 1,
+      "image": "assets/img/avatar.png",
+      "location": "St. Lukes Medical Center",
+      "doctor": "Ludo Anderson",
+      "doctorPosition": "Cardiologist"
+    },
+    {
+      "id": 2,
+      "image": "assets/img/avatar2.png",
+      "location": "St. Lukes Medical Center",
+      "doctor": "Sara Orwell",
+      "doctorPosition": "Cardiologist"
+    },
+    {
+      "id": 3,
+      "image": "assets/img/avatar3.png",
+      "location": "St. Lukes Medical Center",
+      "doctor": "Miranda Smith",
+      "doctorPosition": "Cardiologist"
+    }
+  ],
+  "patient-profile": {
+    "id": 1,
+    "active": true,
+    "pin ": "PIN",
+    "prefix": "Prefix",
+    "firstName": "FirstName",
+    "middleName": "MiddleName",
+    "lastName": "LastName",
+    "suffix": "Suffix",
+    "gender": "Gender",
+    "birthDate": "1978-05-21T00:00:00",
+    "maritaStatu": "MaritaStatus",
+    "isDeceased": false,
+    "deceasedDateTime": "1900-01-01T00:00:00",
+    "addressLine": "AddressLine",
+    "city": "City",
+    "district": "District",
+    "state": "State",
+    "postalCode": "PostalCode",
+    "country": "PH",
+    "homePhoneNo": "HomePhoneNo",
+    "workPhoneNo": "WorkPhoneNo",
+    "mobilePhoneNo": "MobilePhoneNo",
+    "imageUrl": "/assets/img/avatar.png",
+    "blood": {
+      "titles": ["Systolic", "Diastolic"],
+      "params1": [100, 110, 90],
+      "params2": [80, 90, 100],
+      "months": ["October", "November", "December"]
+    },
+    "bodyMass": {
+      "titles": ["Weight", "BMI"],
+      "params1": [120, 110, 90, 100, 90],
+      "params2": [21.1, 20.1, 28, 23, 24],
+      "months": ["January", "February", "March", "April", "May"]
+    }
+  },
+  "appointments": [
+    {
+      "hospitalName": "Saint Lukes Medical Center",
+      "date": "2018-02-19",
+      "appointees": [
+        {
+          "person": {
+            "firstName": "Ariel",
+            "middleName": "Middle",
+            "lastName": "Ortiz",
+            "profileUrl": "assets/img/avatar.png"
+          },
+          "schedule": {
+            "date": "2018-02-19",
+            "time": "10:00 AM",
+            "status": "pending",
+            "description": "Follow-up Checkup",
+            "note": "No Conflict"
+          }
+        },
+        {
+          "person": {
+            "firstName": "John",
+            "middleName": "Cotto.",
+            "lastName": "Carlos",
+            "profileUrl": "assets/img/avatar2.png"
+          },
+          "schedule": {
+            "date": "2018-02-19",
+            "time": "11:00 AM",
+            "status": "confirmed",
+            "description": "Follow-up Checkup",
+            "note": "No Conflict"
+          }
+        }
+      ]
+    },
+    {
+      "hospitalName": "Saint Lukes Medical Center",
+      "date": "2018-02-21",
+      "appointees": [
+        {
+          "person": {
+            "firstName": "Ariel",
+            "middleName": "Middle",
+            "lastName": "Ortiz",
+            "profileUrl": "assets/img/avatar.png"
+          },
+          "schedule": {
+            "date": "2018-02-21",
+            "time": "11:00 AM",
+            "status": "confirmed",
+            "description": "Follow-up Checkup",
+            "note": "No Conflict"
+          }
+        },
+        {
+          "person": {
+            "firstName": "John",
+            "middleName": "Cotto.",
+            "lastName": "Carlos",
+            "profileUrl": "assets/img/avatar2.png"
+          },
+          "schedule": {
+            "date": "2018-02-21",
+            "time": "12:00 AM",
+            "status": "pending",
+            "description": "Follow-up Checkup",
+            "note": "No Conflict"
+          }
+        }
+      ]
+    },
+    {
+      "hospitalName": "Saint Lukes Medical Center",
+      "date": "2018-02-24",
+      "appointees": [
+        {
+          "person": {
+            "firstName": "Ariel",
+            "middleName": "Middle",
+            "lastName": "Ortiz",
+            "profileUrl": "assets/img/avatar.png"
+          },
+          "schedule": {
+            "date": "2018-02-24",
+            "time": "11:00 AM",
+            "status": "confirmed",
+            "description": "Follow-up Checkup",
+            "note": "No Conflict"
+          }
+        },
+        {
+          "person": {
+            "firstName": "Kristel",
+            "middleName": "Bauyon.",
+            "lastName": "Noche",
+            "profileUrl": "assets/img/avatar2.png"
+          },
+          "schedule": {
+            "date": "2018-02-24",
+            "time": "12:00 AM",
+            "status": "pending",
+            "description": "Follow-up Checkup",
+            "note": "No Conflict"
+          }
+        }
+      ]
+    },
+    {
+      "hospitalName": "Saint Lukes Medical Center",
+      "date": "2018-02-25",
+      "appointees": [
+        {
+          "person": {
+            "firstName": "Ariel",
+            "middleName": "Middle",
+            "lastName": "Ortiz",
+            "profileUrl": "assets/img/avatar2.png"
+          },
+          "schedule": {
+            "date": "2018-02-25",
+            "time": "10:00 AM",
+            "status": "pending",
+            "description": "Follow-up Checkup",
+            "note": "No Conflict"
+          }
+        },
+        {
+          "person": {
+            "firstName": "John",
+            "middleName": "Cotto.",
+            "lastName": "Carlos",
+            "profileUrl": "assets/img/avatar.png"
+          },
+          "schedule": {
+            "date": "2018-02-25",
+            "time": "11:00 AM",
+            "status": "confirmed",
+            "description": "Follow-up Checkup",
+            "note": "No Conflict"
+          }
+        }
+      ]
+    }
+  ],
+  "patients": [
+    {
+      "id": 1,
+      "fullName": "Marvin Mendoza Noche",
+      "firstName": "Marvin",
+      "middleName": "Mendoza",
+      "lastName": "Noche"
+    },
+    {
+      "id": 2,
+      "fullName": "Melvin Mendoza Noche",
+      "firstName": "Melvin",
+      "middleName": "Mendoza",
+      "lastName": "Noche"
+    },
+    {
+      "id": 3,
+      "fullName": "Kristel Mendoza Bauyon",
+      "firstName": "Kristel",
+      "middleName": "Mendoza",
+      "lastName": "Bauyon"
+    },
+    {
+      "id": 4,
+      "fullName": "Buenafe Noche Mamawan",
+      "firstName": "Buenafe",
+      "middleName": "Noche",
+      "lastName": "Mamawan"
+    }
+  ],
+  "available-sched": [
+    {
+      "id": 1,
+      "date": "2018-02-26",
+      "time": "10:00 AM"
+    },
+    {
+      "id": 2,
+      "date": "2018-02-26",
+      "time": "10:30 AM"
+    },
+    {
+      "id": 3,
+      "date": "2018-02-26",
+      "time": "10:00 AM"
+    }
+  ],
+  "appointment-types": [
+    {
+      "id": 1,
+      "code": "RC",
+      "description": "Routine checkup"
+    },
+    {
+      "id": 2,
+      "code": "MHC",
+      "description": "Mental Health and Counseling"
+    },
+    {
+      "id": 3,
+      "code": "VCN",
+      "description": "Vaccinations"
+    },
+    {
+      "id": 4,
+      "code": "TC",
+      "description": "Travel Clinic"
+    },
+    {
+      "id": 5,
+      "code": "DTL",
+      "description": "Dental"
+    }
+  ],
+  "chief-complaints": [
+    {
+      "id": 1,
+      "code": "CAD",
+      "description": "Chest pain or chest pressure; worse with exertion"
+    },
+    {
+      "id": 2,
+      "code": "MI",
+      "description": "Chest pain or chest pressure"
+    },
+    {
+      "id": 3,
+      "code": "CHF",
+      "description": "Shortness of breath; worse with orthopnea; PND; DOE"
+    }
+  ],
+  "book-appointment": [
+    {
+      "id": 1,
+      "patientId": 1,
+      "appointmentTypeId": 1,
+      "compliantTypeId": 1,
+      "schedule": {
+        "date": "2018-01-29",
+        "time": "10:00 AM"
+      },
+      "notes": "Sample Book"
+    }
+  ],
+  "patient-timeline": [
+    {
+      "id": 1,
+      "checkUpDate": "2018-02-08",
+      "doctor": "Ludo Anderson",
+      "doctorPosition": "Cardiologist"
+    },
+    {
+      "id": 2,
+      "checkUpDate": "2018-02-08",
+      "doctor": "Sara Orwell",
+      "doctorPosition": "Cardiologist"
+    },
+    {
+      "id": 3,
+      "checkUpDate": "2018-02-08",
+      "doctor": "Miranda Smith",
+      "doctorPosition": "Cardiologist"
+    }
+  ]
 }
